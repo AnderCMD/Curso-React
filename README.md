@@ -77,7 +77,7 @@ Para ejecutar los ejercicios y proyectos de este curso necesitas:
     npm run dev
     ```
 
-5. Accede a la aplicación en tu navegador en `http://localhost:3000`.
+5. Accede a la aplicación en tu navegador en `http://localhost:5173`.
 
 ## Autor ✒️
 
