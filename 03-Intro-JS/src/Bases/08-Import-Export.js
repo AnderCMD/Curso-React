@@ -1,10 +1,10 @@
 
 // Este archivo contiene funciones para manejar héroes y un ejemplo de su uso.
 // Importa la lista de héroes desde el archivo 'Heroes'.
-import { heroes } from './Data/Heroes';
+import heroes from '../Data/Heroes';
 
 // Función para obtener un héroe por su ID.
-const getHeroeById = (id) => {
+export const getHeroeById = (id) => {
 	return heroes.find((hero) => hero.id === id); // La función 'find' busca el primer héroe que cumpla con la condición dada (en este caso, que su ID coincida con el proporcionado).
 };
 
@@ -12,7 +12,7 @@ const getHeroeById = (id) => {
 console.log(getHeroeById(1));
 
 // Función para obtener héroes por su editorial (DC o Marvel).
-const getHeroesByOwner = (owner) => {
+export const getHeroesByOwner = (owner) => {
     return heroes.filter((hero) => hero.owner === owner); // La función 'filter' devuelve un nuevo arreglo con todos los héroes que pertenecen a la editorial especificada.
 };
 
