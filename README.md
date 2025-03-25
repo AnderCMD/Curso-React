@@ -51,7 +51,7 @@ Para ejecutar los ejercicios y proyectos de este curso necesitas:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/AnderCMD/Curso-React-Udemy.git
+    git clone https://github.com/AnderCMD/Curso-React.git
     ```
 
 2. Ingresa al directorio del curso:
