@@ -1,10 +1,17 @@
+// ? Importaciones
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+
+// ? Estilos
 import './index.css'
-import App from './App.jsx'
+
+// ? Componentes
+import PropTypesComponent from './Components/PropTypesComponent.jsx'
+import Contador from './Components/Counter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <PropTypesComponent nombre='AnderCMD' titulo='Como te encuentras?'/> */}
+    <Contador />
   </StrictMode>,
 )
